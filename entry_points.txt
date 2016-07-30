@@ -144,6 +144,7 @@ block_device_mapping = nova.api.openstack.compute.block_device_mapping:BlockDevi
 pause_server = nova.api.openstack.compute.pause_server:PauseServer
 floating_ip_dns = nova.api.openstack.compute.floating_ip_dns:FloatingIpDns
 aggregates = nova.api.openstack.compute.aggregates:Aggregates
+policys = nova.api.openstack.compute.policys:Policys
 fping = nova.api.openstack.compute.fping:Fping
 extended_availability_zone = nova.api.openstack.compute.extended_availability_zone:ExtendedAvailabilityZone
 evacuate = nova.api.openstack.compute.evacuate:Evacuate

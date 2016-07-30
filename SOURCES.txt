@@ -1111,6 +1111,7 @@ nova/db/sqlalchemy/migrate_repo/versions/317_add_aggregate_uuid.py
 nova/db/sqlalchemy/migrate_repo/versions/318_resource_provider_name_aggregates.py
 nova/db/sqlalchemy/migrate_repo/versions/319_add_instances_deleted_created_at_index.py
 nova/db/sqlalchemy/migrate_repo/versions/320_add_instance_type_cache.py
+nova/db/sqlalchemy/migrate_repo/versions/321_add_policy_provider.py
 nova/db/sqlalchemy/migrate_repo/versions/__init__.py
 nova/hacking/__init__.py
 nova/hacking/checks.py
@@ -2689,3 +2690,5 @@ tools/xenserver/rotate_xen_guest_logs.sh
 tools/xenserver/stress_test.py
 tools/xenserver/vdi_chain_cleanup.py
 tools/xenserver/vm_vdi_cleaner.py
+nova/objects/policy.py
+nova/api/openstack/compute/policys.py
